@@ -36,7 +36,9 @@ export function Post (){
                     placeholder='Nossa,adorei amigo! Parabéns'
                 />
 
-            <button type='submit'>Publicar</button>
+            <footer>
+                <button type='submit'>Publicar</button>
+            </footer>
         </form>
 
         

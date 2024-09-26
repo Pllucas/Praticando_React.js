@@ -86,11 +86,21 @@ header time{
     border-radius: 8px;
 }
 
+.feedback footer{
+    visibility: hidden;
+    max-height: 0;
+}
+
+.feedback:focus-within footer{ 
+    visibility: visible;
+    max-height: none;
+}
+
 .feedback button[type='submit']{
     align-self: flex-start;
     background: var(--green-500);
     color: var(--white);
-    line-height: 1.6;
+    line-height: 1.4;
     border: none;
     border-radius: 8px;
     padding: .8rem 1.5rem;
